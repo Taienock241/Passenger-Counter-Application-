@@ -7,6 +7,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-color: linear-gradient(white,blue,green);
+    height: 100vh;
 }
 
 h1 {
@@ -14,14 +15,19 @@ h1 {
     margin-bottom: 10px;
     color: aqua;
 }
-p{
-    color: rgb(255, 255, 255);
-}
+
 
 h2 {
     font-size: 50px;
     margin-top: 0;
     margin-bottom: 20px;
+}
+.container{
+    border: 3px solid black;
+    margin: auto;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 10px 20px;
 }
 
 button {
@@ -36,7 +42,7 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: rgb(9, 47, 181);
 }
 
 #save-btn {
